@@ -1,0 +1,65 @@
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+
+#home .introduction h1 {
+    font-size: 50px;
+}
+
+#home .introduction h1 .name {
+    color: var(--primary-color);
+}
+
+
+.photo img {
+    padding-top: 40px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#home .introduction {
+    flex: 1;
+}
+
+#home .introduction .buttons {
+    margin-top: 1rem;
+}
+
+#home .introduction .buttons a {
+    display: inline-block;
+    text-align: center;
+    padding: .6rem;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#home .introduction .buttons .hire-me {
+    background-color: var(--primary-color);
+    color: white;
+    width: 150px;
+}
+
+#home .introduction .buttons .hire-me:hover {
+    background-color: #1f86fc;
+}
+
+#home .introduction .buttons .download-cv {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 200px;
+}
+
+#home .introduction .buttons .download-cv:hover {
+    background-color: #1f86fc;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.blog-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.blog-description {
+    text-align: justify;
+    margin-right: 10px;
+    flex: 2; 
+}
+
+.blog-image {
+    flex: 1; 
+}
+
+.blog-image img {
+    width: 100%;
+    /* height: auto; */
+}

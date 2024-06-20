@@ -1,0 +1,63 @@
+#about-me {
+    display: flex;
+    gap: 20px;
+}
+
+.about-me__image {
+    flex: 1;
+}
+
+.about-me__description {
+    flex: 2;
+}
+
+.about-me__image img {
+    width: 100%;
+    flex: 1;
+    box-shadow: 0 0 2px rgb(206, 206, 206);
+}
+
+.about-me__description h3 {
+    color: var(--primary-color);
+}
+
+.about-me__description h1 {
+    font-size: 40px;
+}
+
+.about-me__description h1,
+h3,
+div {
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    margin-top: 20px;
+}
+
+.skills .skill__button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: .4rem;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.knowledge {
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledge__item label {
+    font-weight: bold;
+}
+
+.knowledge__item progress {
+    padding: 1rem;
+    width: 100%;
+}
