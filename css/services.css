@@ -1,0 +1,13 @@
+.services-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sevices-discription {
+    text-align: justify;
+
+}
+
+.lorem {
+    margin: 20px;
+}
